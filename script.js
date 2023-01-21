@@ -194,7 +194,7 @@ const getWeatherGar = (city) => {
 const getWeatherGangi = (city) => {
   cityName.innerHTML = city;
   fetch(
-    "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Garhwa",
+    "https://weather-by-api-ninjas.p.rapidapi.com/v1/weather?city=Gangi",
     options
   )
     .then((response) => response.json())
